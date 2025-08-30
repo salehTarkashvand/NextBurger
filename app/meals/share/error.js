@@ -4,7 +4,7 @@ export default function Error() {
   return (
     <main className="error">
       <h1>an error occurred!</h1>
-      <p>failed to fetch meal data , please try again ...</p>
+      <p>failed to create meal </p>
     </main>
   );
 }

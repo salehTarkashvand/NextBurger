@@ -4,7 +4,7 @@ import { useFormStatus } from "react-dom"
 
 export default function MealsFormSubmit(){
     const {pending} = useFormStatus()
-    return <button disabled={pending} >
+    return <button disabled={pending} type="submit" >
         {pending ? "submitting ..." : "share Meal"}
     </button>
 }
