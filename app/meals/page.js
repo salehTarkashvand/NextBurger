@@ -5,6 +5,10 @@ import MealsGrid from '@/components/meals/meals-grid';
 import { getMeals } from '../../db/meals';
 import { Suspense } from 'react';
 
+export const metadata = {
+  title: 'all meals',
+  description: 'Delicious meals, shared by a food-loving community.',
+};
 
 async function Meals (){
  const  meals = await getMeals()
